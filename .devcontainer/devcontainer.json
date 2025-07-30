@@ -1,0 +1,8 @@
+{
+  "name": "vps-gui",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "forwardPorts": [6080],
+  "postCreateCommand": "supervisord"
+}
